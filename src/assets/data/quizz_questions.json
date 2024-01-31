@@ -1,55 +1,131 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual seria o jogo que mais combinaria com você?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual seu genero favorito?",
+      "options": [
+        {
+          "id": 1,
+          "name": "FPS",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Moba",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "RPG",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Sandbox",
+          "alias": "D"
+        }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Você prefere PVP ou missões?",
+      "options": [
+        {
+          "id": 1,
+          "name": "PvP",
+          "alias": "A,B"
+        },
+        {
+          "id": 2,
+          "name": "Missões",
+          "alias": "C,D"
+        }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual foi o último video game você mais gostou de usar?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Computador",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Playstation",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Celular",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Xbox",
+          "alias": "D"
+        }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "O que você mais gosta de fazer enquanto joga?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Procurar conquistas e trofeus",
+          "alias": "D"
+        },
+        {
+          "id": 2,
+          "name": "Matar os inimigos",
+          "alias": "A"
+        },
+        {
+          "id": 3,
+          "name": "Batalhar em Equipe",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Fazer o modo historia e ficar forte",
+          "alias": "C"
+        }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual destas empresas você mais gosta",
+      "options": [
+        {
+          "id": 1,
+          "name": "VALVE",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Riot Games",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "CD Project Red",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Face Punch",
+          "alias": "D"
+        }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você muito provavelmente seria um fã de Counter Strike",
+    "B": "Você muito provavelmente seria um fã de League of Legends",
+    "C": "Você muito provavelmente seria um fã de Cyberpunk",
+    "B": "Você muito provavelmente seria um fã de Minecraft"
   }
 }
